@@ -21,8 +21,8 @@
 #include<string.h>
 int miss_element(int *a,int size_a,int *b,int size_b){
 	 int count =0;
-        for(int i=0;i<10;i++){
-                for(int j=0;j<6;j++){
+        for(int i=0;i<size_a;i++){
+                for(int j=0;j<size_b;j++){
                         if(a[i]==b[j]){
                                 count++;
                         }
